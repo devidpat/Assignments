@@ -1,0 +1,51 @@
+.container{
+    width: 100vw;
+    background-color: burlywood;
+    height: 4vh;
+    padding: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.logo{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer{
+    width: 100vw;
+    height: 3vh;
+    background-color: burlywood;
+    position: fixed;
+    top: 100vh;
+}
+
+.image-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.imagecontent img{
+    width: 70vw;
+    height: 60vh;
+}
+
+.content p{
+    text-align: justify;
+    margin: 2rem 10rem;
+}
