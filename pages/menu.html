@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../index.css">
+    <script src="https://kit.fontawesome.com/d966b93e9a.js" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Java Beans</div>
+            <div class="nav-items">
+                <a href="../index.html">Home</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./aboutus.html">About us</a>
+            </div>
+        </div>
+    </div>
+    <div class="topnav">
+        <a href="./index.html" class="active" >
+            <div class="logo">Java Beans</div>
+          </a>
+        <div id="myLinks">
+            <a href="../index.html">Home</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./aboutus.html">About us</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+    <h1 class="menu-heading">Java Beans Menu</h1>
+    <div class="menu">
+        <img src="../images/menu.jpg" alt="Menu">
+    </div>
+    <div class="footer">
+        <div class="social">
+            <span class="phone">
+                Phone: +91 1214141422
+            </span>
+            <span class="instagram">
+                <a href="#">Instagram</a>
+            </span>
+            <span class="facebook">
+                <a href="#">Facebook</a>
+            </span>
+        </div>
+        <div class="copyright">
+            &#169; &nbsp; Copyright 2023 JavaBeans.
+        </div>
+    </div>
+
+</body>
+</html>
